@@ -10,10 +10,22 @@ import time
 
 os.system('clear')
 
+if len(sys.argv) != 3:
+    os.system('clear')
+    print(f'''
+          ---------
+          - HELP! -
+          ---------
+          
+          Usage: python3 {sys.argv[0]} CHAVE-MD5 SECRET-MD5
+          
+          Github: https://github.com/MarcosRCarvalhoAzion/JWT
+          ''')
+    sys.exit(0)
+    
 kids_and_secrets = {
     f'{sys.argv[1]}' : f'{sys.argv[2]}'
 }
-
 
 # get a random kid with secret
 selected_kid, selected_secret = random.choice(list(kids_and_secrets.items()))
