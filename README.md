@@ -121,7 +121,7 @@ As informações em tela serão salvas num arquivo **information.txt** no mesmo 
 
 # Utilizando o JWT 
 
-Assim que o **Scritp** gerar o **Authorization Bearer**, toda a requisição precisará passar o **Header** com o JWT para que a Function valide a request e permita a conexão com a aplicação.
+Assim que o **Script** gerar o **Authorization Bearer**, toda a requisição precisará passar o **Header** com o JWT para que a Function valide a request e permita a conexão com a aplicação.
 
 # Criando hashes MD5 customizados
 
