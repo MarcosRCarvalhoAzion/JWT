@@ -55,8 +55,10 @@ source venv/bin/activate
 pip install --upgrade pip
 ```
 
+## Instalando as dependências do projeto
+
 ```bash
-  pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 # Executando o Script (Exemplo)
