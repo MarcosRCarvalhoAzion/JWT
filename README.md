@@ -123,7 +123,7 @@ As informações em tela serão salvas num arquivo **information.txt** no mesmo 
 
 Assim que o **Scritp** gerar o **Authorization Bearer**, toda a requisição precisará passar o **Header** com o JWT para que a Function valide a request e permita a conexão com a aplicação.
 
-# Criando hashs MD5 customizados
+# Criando hashes MD5 customizados
 
 ### MAC OSx
 
