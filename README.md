@@ -31,7 +31,7 @@ O projeto foi desenvolvido para rodar em Python 3x, portanto é compatível com 
 Além do **Python 3x**, é necessário a instalação do **PyJWT**.
 Para facilitar o processo de instalação, deixamos um arquivo **requiriments.txt** com todas as dependências do projeto.
 
-## requiriments.txt
+## requirements.txt
 
 ```
 PyJWT==2.7.0
@@ -40,7 +40,7 @@ PyJWT==2.7.0
 Instalando as dependências do projeto.
 
 ```bash
-  pip install -r requiriments.txt
+  pip install -r requirements.txt
 ```
 
 # Executando o Script (Exemplo)
