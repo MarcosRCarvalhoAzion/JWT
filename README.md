@@ -45,6 +45,8 @@ Instalando as dependências do projeto.
 python3 -m venv venv
 ```
 
+## Ativando ambiente virtual (venv).
+
 ```bash
 source venv/bin/activate
 ```
