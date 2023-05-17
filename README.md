@@ -39,11 +39,41 @@ PyJWT==2.7.0
 
 Instalando as dependências do projeto.
 
+### Criar ambiente isolado para rodar o script. (opcional)
+
+```bash
+python3 -m venv venv
+```
+
+```bash
+source venv/bin/activate
+```
+
+## Atualizando o pip 
+
+```bash
+pip install --upgrade pip
+```
+
 ```bash
   pip install -r requirements.txt
 ```
 
 # Executando o Script (Exemplo)
+
+```bash
+python3 jwt-token.py
+```
+
+```
+          ---------
+          - HELP! -
+          ---------
+          
+          Usage: python3 jwt-token.py CHAVE-MD5 SECRET-MD5
+          
+          Github: https://github.com/MarcosRCarvalhoAzion/JWT
+```
 
 ```bash
 python3 jwt-token.py 36E87FA127F7643CB6E9E7A9A227D544 3F5B079CB698C2DBFFCC0D76F9B94E45
@@ -81,7 +111,9 @@ As informações em tela serão salvas num arquivo **information.txt** no mesmo 
       ---------------------------    
 
 ```
+
 # Utilizando o JWT 
+
 Assim que o **Scritp** gerar o **Authorization Bearer**, toda a requisição precisará passar o **Header** com o JWT para que a Function valide a request e permita a conexão com a aplicação.
 
 # Criando hashs MD5 customizados
