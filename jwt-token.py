@@ -23,9 +23,7 @@ if len(sys.argv) != 3:
           ''')
     sys.exit(0)
     
-kids_and_secrets = {
-    f'{sys.argv[1]}' : f'{sys.argv[2]}'
-}
+kids_and_secrets = { f'{sys.argv[1]}' : f'{sys.argv[2]}' }
 
 # get a random kid with secret
 selected_kid, selected_secret = random.choice(list(kids_and_secrets.items()))
