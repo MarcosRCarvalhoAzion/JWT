@@ -130,7 +130,7 @@ echo -n 'minha-string-secret-123' | md5 -r | tr '[:lower:]' '[:upper:]'
 }
 ```
 
-## Funcion Json Args
+## Function Json Args
 ```json
 {
   "kids": {
