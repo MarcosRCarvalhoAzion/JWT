@@ -137,13 +137,17 @@ echo -n 'qualquer_string_aqui...' | md5 -r | tr '[:lower:]' '[:upper:]'
 echo -n 'qualquer_string_aqui...' | md5sum | cut -d '-' -f1 | tr '[:lower:]' '[:upper:]'
 ````
 
-# Exemplo / Caso de uso
+# Exemplo de utilização. 
+
+Abaixo esta um exemplo completo de utilização do script.
+Para gerar chave/secret MD5, foram usados os valores **minha-string-123** para a **CHAVE** e **minha-string-secret-123** para o **SECRET**.
 
 ## Gerando Chave MD5 (Mac OS)
 
 ```bash
 echo -n 'minha-string-123' | md5 -r | tr '[:lower:]' '[:upper:]'
 ```
+
 ```
 36E87FA127F7643CB6E9E7A9A227D544
 ```
