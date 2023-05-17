@@ -4,15 +4,17 @@
 Projeto desenvolvido para faciliar a criação de tokens JWT (Json Web Token) para a Function de Security JWT.
 
 # Sobre o projeto
-Este script tem a finalidade de gerar um Token JWT a partir de um par de chave/secret KIDs, padrão utilizado pela Function JWT para validar a autenticação na request.
+
+Este script tem a finalidade de gerar um Token JWT a partir de um par de chave/secret KIDs, padrão utilizado pela Function JWT para validar a autenticação na **request phase**.
 
 # Como utilizar o script
+
 Para rodar o script, é preciso gerar uma **chave** e um **secret** em **MD5**.
-Os hashes devem ser passados para o scritp via argumento.
+Os hashes devem ser passados para o script via argumento.
 Nesta documentação disponibilizamos alguns exemplos no **Mac Os** e **Gnu/Linux** para gerar esses hashes.
 
 
-## Exemplo
+## Exemplo e utilização
 
 ```bash
 python3 jwt-token.py chave-md5 secret-md5
@@ -23,13 +25,13 @@ python3 jwt-token.py 36E87FA127F7643CB6E9E7A9A227D544 3F5B079CB698C2DBFFCC0D76F9
 ```
 
 ## Compatibilidade
-O projeto foi desenvolvido para rodar em Python 3x, portanto é compatível com sistemas **Unix Like** e que possuam o Python instalado.
+O projeto foi desenvolvido para rodar em **Python 3x**, portanto é compatível com sistemas **Unix Like** e **Windows** que possuam o Python instalado.
 
 
 ## Dependências
 
 Além do **Python 3x**, é necessário a instalação do **PyJWT**.
-Para facilitar o processo de instalação, deixamos um arquivo **requiriments.txt** com todas as dependências do projeto.
+Para facilitar o processo de instalação, deixamos um arquivo **requirements.txt** com todas as dependências do projeto.
 
 ## requirements.txt
 
@@ -84,6 +86,7 @@ python3 jwt-token.py 36E87FA127F7643CB6E9E7A9A227D544 3F5B079CB698C2DBFFCC0D76F9
 ```
 
 # Resultado da execução do Script
+
 Ao executar o arquivo, será apresentado em tela o Token de autencicação.
 Com essas informações você poderá fazer requisições usando o JWT recém criado.
 As informações em tela serão salvas num arquivo **information.txt** no mesmo diretório que foi executado o **script**.
@@ -158,6 +161,7 @@ echo -n 'minha-string-secret-123' | md5 -r | tr '[:lower:]' '[:upper:]'
 ## Montando padrão para a Function JWT (Json Args)
 
 ### Parâmetros da Function JWT (Json Args)
+
 ```json
 {
   "kids": {
@@ -167,6 +171,7 @@ echo -n 'minha-string-secret-123' | md5 -r | tr '[:lower:]' '[:upper:]'
 ```
 
 ## Function Json Args
+
 ```json
 {
   "kids": {
