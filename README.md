@@ -208,7 +208,8 @@ echo -n 'minha-string-secret-123' | md5 -r | tr '[:lower:]' '[:upper:]'
 Bearer eyJhbGciOiJIUzI1NiIsImtpZCI6IjM2RTg3RkExMjdGNzY0M0NCNkU5RTdBOUEyMjdENTQ0IiwidHlwIjoiSldUIn0.eyJleHAiOjE2ODQzNjM5ODMsImlhdCI6MTY4NDM2MzM4MywibXlfZGF0YV8xIjoieCIsIm15X2RhdGFfMiI6InkifQ.rbNaP60mqOShKivil_qv4Cqx8By_jmYVruMcvEm-CXs
 ```
 
-![JWT](https://drive.google.com/file/d/1h7VMCrOYxBpTS1CEVXH44mgIIGGoZrZf/view)
+![JWT](https://drive.google.com/uc?export=view&id=1h7VMCrOYxBpTS1CEVXH44mgIIGGoZrZf)
+
 
 ## Desenvolvedores
 
