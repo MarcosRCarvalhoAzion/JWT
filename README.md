@@ -59,13 +59,29 @@ source venv/bin/activate
 pip install --upgrade pip
 ```
 
-## Instalando as dependências do projeto
+# Instalando as dependências do projeto
+
+## Baixando o código fonte do Github
+
+```bash
+git clone https://github.com/MarcosRCarvalhoAzion/JWT.git
+```
+
+## Acessando o diretório do projeto
+
+```bash
+cd JWT
+```
+
+## Instalando dependências do Python (PyJWT)
 
 ```bash
 pip install -r requirements.txt
 ```
 
 # Executando o Script (Exemplo)
+
+Se o processo de instação for bem sucessido, ao rodar o script sem passar parâmetros, será mostrado em tela um alert **HELP!**
 
 ```bash
 python3 jwt-token.py
@@ -162,7 +178,7 @@ echo -n 'minha-string-secret-123' | md5 -r | tr '[:lower:]' '[:upper:]'
 3F5B079CB698C2DBFFCC0D76F9B94E45
 ```
 
-## Montando padrão para a Function JWT (Json Args)
+## Montando a estrutura KIDs para a Function JWT (Json Args)
 
 ### Parâmetros da Function JWT (Json Args)
 
