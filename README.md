@@ -202,6 +202,9 @@ echo -n 'minha-string-secret-123' | md5 -r | tr '[:lower:]' '[:upper:]'
 }
 ```
 
+![JWT Function](https://drive.google.com/uc?export=view&id=1IcvlhmyyB2m2hC7mDPJzJITNLCKjTYrK)
+
+
 ## Exemplo de JWT para os valores do Json Args acima
 
 ```jwt 
