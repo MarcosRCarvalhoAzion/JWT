@@ -97,6 +97,8 @@ python3 jwt-token.py
           Github: https://github.com/MarcosRCarvalhoAzion/JWT
 ```
 
+# Executando o script com todos os parâmetros necessários
+
 ```bash
 python3 jwt-token.py 36E87FA127F7643CB6E9E7A9A227D544 3F5B079CB698C2DBFFCC0D76F9B94E45
 ```
