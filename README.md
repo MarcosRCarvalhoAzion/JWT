@@ -81,7 +81,7 @@ pip install -r requirements.txt
 
 # Executando o Script (Exemplo)
 
-Se o processo de instação for bem sucessido, ao rodar o script sem passar parâmetros, será mostrado em tela um alert **HELP!**
+Se o processo de instalação for bem sucessido e não retornar nenhum código de erro, ao rodar o script pela primeira vez sem passar parâmetros, será mostrado em tela um alert **HELP!**
 
 ```bash
 python3 jwt-token.py
